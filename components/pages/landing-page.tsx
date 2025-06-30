@@ -17,7 +17,7 @@ export function LandingPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 mb-6">
-              Temukan Buku Impian Anda di <span className="text-orange-600">SecondRead</span>
+              Temukan Buku Impian Anda di <span className="text-orange-600">Secondhand</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Platform marketplace buku preloved terpercaya. Jual buku lama Anda atau temukan buku berkualitas dengan
