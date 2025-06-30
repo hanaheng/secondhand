@@ -5,6 +5,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { BookOpen, Menu, X, User } from "lucide-react"
 import { useAuth } from "@/hooks/use-auth"
+import Image from "next/image"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -16,8 +17,10 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <BookOpen className="h-8 w-8 text-orange-600" />
-            <span className="text-2xl font-bold text-gray-900">SecondRead</span>
+            <Image 
+              src="/logo.png"
+              width={100}
+              height={100} alt={""}/>
           </Link>
 
           {/* Desktop Navigation */}
