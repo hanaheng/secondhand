@@ -33,7 +33,11 @@ export function useAuth() {
   return context
 }
 
-export function AuthProvider({ children }: { children: React.ReactNode }) {
+interface AuthProviderProps {
+  children: React.ReactNode
+}
+
+export function AuthProvider({ children }: AuthProviderProps) {
   const [user, setUser] = useState<User | null>(null)
   const [loading, setLoading] = useState(true)
   const supabase = createClient()
@@ -66,8 +70,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const fetchUserProfile = async (userId: string, session: any) => {
     try {
       // maybeSingle() will NOT throw if 0 rows are returned – it simply resolves with
-      // `data: null`. That prevents the “JSON object requested, multiple (or no) rows
-      // returned” error you saw in preview/prod when a profile row is missing.
+      // `data: null`. That prevents the "JSON object requested, multiple (or no) rows
+      // returned" error you saw in preview/prod when a profile row is missing.
       const { data, error } = await supabase.from("users").select("*").eq("id", userId).maybeSingle()
 
       if (error && error.details !== "0 rows") throw error
