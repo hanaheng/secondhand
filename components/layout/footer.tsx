@@ -10,7 +10,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <BookOpen className="h-8 w-8 text-orange-600" />
-              <span className="text-2xl font-bold">SecondRead</span>
+              <span className="text-2xl font-bold">Secondhand</span>
             </div>
             <p className="text-gray-400 mb-4">
               Platform marketplace buku preloved terpercaya di Indonesia. Menghubungkan pecinta buku untuk berbagi dan
@@ -19,7 +19,7 @@ export function Footer() {
             <div className="flex space-x-4">
               <div className="flex items-center text-gray-400">
                 <Mail className="h-4 w-4 mr-2" />
-                info@secondread.id
+                info@secondhand.id
               </div>
               <div className="flex items-center text-gray-400">
                 <Phone className="h-4 w-4 mr-2" />
