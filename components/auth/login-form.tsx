@@ -1,4 +1,4 @@
-"use client"
+z"use client"
 
 import type React from "react"
 
@@ -31,7 +31,7 @@ export function LoginForm() {
       await signIn(email, password)
       toast({
         title: "Berhasil masuk!",
-        description: "Selamat datang kembali di SecondRead.",
+        description: "Selamat datang kembali di Secondhand",
       })
       router.push("/dashboard")
     } catch (error) {
@@ -50,7 +50,7 @@ export function LoginForm() {
       <div className="text-center mb-8">
         <Link href="/" className="flex items-center justify-center space-x-2 mb-4">
           <BookOpen className="h-8 w-8 text-orange-600" />
-          <span className="text-2xl font-bold text-gray-900">SecondRead</span>
+          <span className="text-2xl font-bold text-gray-900">Secondhand</span>
         </Link>
         <h1 className="text-2xl font-bold text-gray-900">Masuk ke Akun Anda</h1>
         <p className="text-gray-600 mt-2">Selamat datang kembali!</p>
