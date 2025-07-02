@@ -72,7 +72,7 @@ export function RegisterForm() {
       <div className="text-center mb-8">
         <Link href="/" className="flex items-center justify-center space-x-2 mb-4">
           <BookOpen className="h-8 w-8 text-orange-600" />
-          <span className="text-2xl font-bold text-gray-900">SecondRead</span>
+          <span className="text-2xl font-bold text-gray-900">Secondhand</span>
         </Link>
         <h1 className="text-2xl font-bold text-gray-900">Buat Akun Baru</h1>
         <p className="text-gray-600 mt-2">Bergabunglah dengan komunitas pecinta buku!</p>
