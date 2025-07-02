@@ -53,7 +53,7 @@ export function RegisterForm() {
       await signUp(formData.email, formData.password, formData.fullName)
       toast({
         title: "Berhasil mendaftar!",
-        description: "Akun Anda telah dibuat. Selamat datang di SecondRead!",
+        description: "Akun Anda telah dibuat. Selamat datang di Secondhand!",
       })
       router.push("/dashboard")
     } catch (error) {
