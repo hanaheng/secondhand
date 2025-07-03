@@ -9,8 +9,7 @@ export function Footer() {
           {/* Logo & Description */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <BookOpen className="h-8 w-8 text-orange-600" />
-              <span className="text-2xl font-bold">Secondhand</span>
+              <img alt="" loading="lazy" width="100" height="100" decoding="async" data-nimg="1" src="/logo.png" style="color: transparent;">
             </div>
             <p className="text-gray-400 mb-4">
               Platform marketplace buku preloved terpercaya di Indonesia. Menghubungkan pecinta buku untuk berbagi dan
