@@ -3,7 +3,6 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { BookOpen, Menu, X, User } from "lucide-react"
 import { useAuth } from "@/hooks/use-auth"
 import Image from "next/image"
 
