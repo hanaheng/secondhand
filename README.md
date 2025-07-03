@@ -1,4 +1,4 @@
-# SecondRead - Marketplace Buku Preloved
+# Secondhand - Marketplace Buku Preloved
 
 ## Setup Environment Variables
 
